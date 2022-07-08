@@ -1,15 +1,11 @@
-import { Home } from './pages/Home'
-import { Movie } from './pages/Movie'
-import { Search } from './pages/Search'
-import { Navbar } from './components/Navbar'
+import { Outlet } from 'react-router-dom';
+import { Navbar } from './components/Navbar/index';
 
 export const App = () => {
   return (
-    <div>
+    <div className='flex flex-col gap-6'>
       <Navbar />
-      <Home />
-      <Search />
-      <Movie />
+      <Outlet />
     </div>
   )
 }
