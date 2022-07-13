@@ -1,6 +1,6 @@
 # MoviesLib
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="movies-lib.png" alt="exemplo imagem">
 
 > Um projeto simples, que consome a API do The Movie Database, e retorna uma busca de filmes.
 
